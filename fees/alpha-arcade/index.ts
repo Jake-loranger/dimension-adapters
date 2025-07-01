@@ -14,7 +14,7 @@ const fetch = async (options: FetchOptions) => {
     let nextToken: string | undefined = undefined;
 
     do {
-      let url = `${baseURL}?min-round=1&max-round=999999999&after-time=${startRFC3339}&before-time=${endRFC3339}`;
+      let url = `${baseURL}?after-time=${startRFC3339}&before-time=${endRFC3339}`;
       if (nextToken) {
         url += `&next=${nextToken}`;
       }

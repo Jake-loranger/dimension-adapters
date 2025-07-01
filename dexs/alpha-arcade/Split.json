@@ -1,0 +1,104 @@
+{
+    "application-transaction": {
+        "accounts": [],
+        "application-args": [
+            "gyGzvQ=="
+        ],
+        "application-id": 3088009210,
+        "foreign-apps": [],
+        "foreign-assets": [
+            31566704,
+            3088009302,
+            3088009303
+        ],
+        "global-state-schema": {
+            "num-byte-slice": 0,
+            "num-uint": 0
+        },
+        "local-state-schema": {
+            "num-byte-slice": 0,
+            "num-uint": 0
+        },
+        "on-completion": "noop"
+    },
+    "close-rewards": 0,
+    "closing-amount": 0,
+    "confirmed-round": 51237036,
+    "fee": 1000,
+    "first-valid": 51237031,
+    "genesis-hash": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "genesis-id": "mainnet-v1.0",
+    "global-state-delta": [
+        {
+            "key": "bm9fc3VwcGx5",
+            "value": {
+                "action": 2,
+                "uint": 3670818704
+            }
+        },
+        {
+            "key": "eWVzX3N1cHBseQ==",
+            "value": {
+                "action": 2,
+                "uint": 3670818704
+            }
+        }
+    ],
+    "group": "/seDTLcAHzy0EGhoWCeONAiKRcweGgvUq4hup3FC+bk=",
+    "id": "6FCSGSUAL6TMUUQAD7LJ22GGQIIISSZBOSBNZWTMVG4LM7AZOAWA",
+    "inner-txns": [
+        {
+            "asset-transfer-transaction": {
+                "amount": 1500000000,
+                "asset-id": 3088009302,
+                "close-amount": 0,
+                "receiver": "H3A7GQA62RWHF2B7M7VOB3WFEZXCTL63J56SFITK7PAJ6OWLCCQYVR6UTI"
+            },
+            "close-rewards": 0,
+            "closing-amount": 0,
+            "confirmed-round": 51237036,
+            "fee": 1000,
+            "first-valid": 51237031,
+            "intra-round-offset": 128,
+            "last-valid": 51238031,
+            "receiver-rewards": 0,
+            "round-time": 1750946529,
+            "sender": "5ZVRKBLFIGBMYEGMZRGUZCCPQIMQOSHXY24NKHSZQEVP5TPSE3OAPP7E7Q",
+            "sender-rewards": 0,
+            "tx-type": "axfer"
+        },
+        {
+            "asset-transfer-transaction": {
+                "amount": 1500000000,
+                "asset-id": 3088009303,
+                "close-amount": 0,
+                "receiver": "H3A7GQA62RWHF2B7M7VOB3WFEZXCTL63J56SFITK7PAJ6OWLCCQYVR6UTI"
+            },
+            "close-rewards": 0,
+            "closing-amount": 0,
+            "confirmed-round": 51237036,
+            "fee": 1000,
+            "first-valid": 51237031,
+            "intra-round-offset": 128,
+            "last-valid": 51238031,
+            "receiver-rewards": 0,
+            "round-time": 1750946529,
+            "sender": "5ZVRKBLFIGBMYEGMZRGUZCCPQIMQOSHXY24NKHSZQEVP5TPSE3OAPP7E7Q",
+            "sender-rewards": 0,
+            "tx-type": "axfer"
+        }
+    ],
+    "intra-round-offset": 128,
+    "last-valid": 51238031,
+    "logs": [
+        "FR98dQE="
+    ],
+    "receiver-rewards": 0,
+    "round-time": 1750946529,
+    "sender": "H3A7GQA62RWHF2B7M7VOB3WFEZXCTL63J56SFITK7PAJ6OWLCCQYVR6UTI",
+    "sender-rewards": 0,
+    "signature": {
+        "sig": "M9T0eF1C9gow69EQ2RjFDtOf6R31cJptK3dyoShMZP0/8KKZ1cE7GJXogbT4IxPIALNkzmP76nqF3OTFRavbAQ=="
+    },
+    "tx-type": "appl"
+}
