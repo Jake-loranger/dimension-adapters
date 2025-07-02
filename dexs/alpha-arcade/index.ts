@@ -44,7 +44,7 @@ const fetch = async (options: FetchOptions) => {
           const assetTransfer = innerTxn?.['asset-transfer-transaction'];
           if (assetTransfer && assetTransfer.amount) {
             dailyVolume += assetTransfer.amount;
-            console.log("Amount: ", assetTransfer.amount, "   Transaction Id: \n", txn.id);
+            console.log("Amount: ", assetTransfer.amount, "   Transaction Id: ", txn.id);
           }
         } catch (error) {
           console.error("Error processing inner transaction:", error, "in txn:", txn);
@@ -93,8 +93,7 @@ function getInnerTxnAmountForAppCall(txn: any, targetArgBase64: string): number 
             innerTxn["inner-txns"][0]["tx-type"] === "axfer" &&
             innerTxn["inner-txns"][0]["asset-transfer-transaction"]?.amount
           ) {
-            console.log("\nInner Asset Transfer for MATCH:", innerTxn["inner-txns"][0]["asset-transfer-transaction"]);
-            console.log("Amount: ", innerTxn["inner-txns"][0]["asset-transfer-transaction"].amount, "   Transaction id: \n", txn.id);
+            console.log("Amount: ", innerTxn["inner-txns"][0]["asset-transfer-transaction"].amount, "   Transaction id: ", txn.id);
             totalAmount += innerTxn["inner-txns"][0]["asset-transfer-transaction"].amount;
           }
         
